@@ -12,7 +12,7 @@ import java.util.List;
 public interface CityMapper {
     CityMapper INSTANCE = Mappers.getMapper(CityMapper.class);
 
-    @Mapping(source = "name", target = "cityName")
+    @Mapping(source = "name", target = "name")
     CityDto toDto(CityItem item);
 
     List<CityDto> toDto(List<CityItem> items);
