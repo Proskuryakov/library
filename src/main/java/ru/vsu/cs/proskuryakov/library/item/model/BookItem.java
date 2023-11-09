@@ -16,7 +16,7 @@ import java.util.UUID;
 public class BookItem {
 
     @Id
-    @Generated
+    @GeneratedValue
     private UUID id;
     private String name;
     private int year;

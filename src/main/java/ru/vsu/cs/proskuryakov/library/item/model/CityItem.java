@@ -12,7 +12,7 @@ import lombok.*;
 public class CityItem {
 
     @Id
-    @Generated
+    @GeneratedValue
     private int id;
     private String name;
 

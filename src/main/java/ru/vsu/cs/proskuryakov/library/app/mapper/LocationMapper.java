@@ -15,4 +15,6 @@ public interface LocationMapper {
 
     List<LocationDto> mapToDto(List<LocationItem> items);
 
+    LocationItem mapToItem(LocationDto dto);
+
 }

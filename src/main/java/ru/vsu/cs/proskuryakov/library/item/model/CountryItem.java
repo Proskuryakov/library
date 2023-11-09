@@ -1,9 +1,6 @@
 package ru.vsu.cs.proskuryakov.library.item.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.List;
@@ -17,7 +14,7 @@ import java.util.List;
 public class CountryItem {
 
     @Id
-    @Generated
+    @GeneratedValue
     private Integer id;
     private String name;
 

@@ -15,4 +15,6 @@ public interface PubHouseMapper {
 
     List<PubHouseDto> mapToDto(List<PubHouseItem> items);
 
+    PubHouseItem mapToItem(PubHouseDto dto);
+
 }
